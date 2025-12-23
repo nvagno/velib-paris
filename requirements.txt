@@ -5,3 +5,7 @@ matplotlib
 catboost
 seaborn
 pyarrow
+python-dotenv
+openmeteo-requests
+requests-cache
+retry-requests
