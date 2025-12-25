@@ -2,3 +2,4 @@
 data
 .venv
 .env
+notebooks/catboost_info
