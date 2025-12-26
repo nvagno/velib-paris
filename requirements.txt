@@ -10,7 +10,4 @@ openmeteo-requests
 requests-cache
 retry-requests
 optuna
-optunahub
-cmaes
 scipy
-torch
