@@ -11,3 +11,5 @@ requests-cache
 retry-requests
 optuna
 scipy
+xgboost
+lightgbm
