@@ -44,13 +44,8 @@ if __name__ == '__main__':
         end=pd.to_datetime(hourly.TimeEnd(), unit="s", utc=True),
         freq=pd.Timedelta(seconds=hourly.Interval()),
         inclusive="left"
-    )}
-
-    hourly_data["temperature_2m"] = hourly_temperature_2m
-    hourly_data["precipitation"] = hourly_precipitation
-    hourly_data["rain"] = hourly_rain
-    hourly_data["snowfall"] = hourly_snowfall
-    hourly_data["relative_humidity_2m"] = hourly_relative_humidity_2m
+    ), "temperature_2m": hourly_temperature_2m, "precipitation": hourly_precipitation, "rain": hourly_rain,
+        "snowfall": hourly_snowfall, "relative_humidity_2m": hourly_relative_humidity_2m}
 
     hourly_dataframe = pd.DataFrame(data=hourly_data)
 
